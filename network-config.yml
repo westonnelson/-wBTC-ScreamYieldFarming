@@ -1,0 +1,15 @@
+developmment:
+  -name: Ganache-CLI (FTM-Mainnet Fork)
+    id: ftm-main-fork
+    cmd: ganache-cli
+    host: http://127.0.0.1
+    timeout: 120
+    cmd_settings:
+      port: 8545
+      gas_limit: 2000000
+      accounts: 10
+      evm_version: istanbul
+      mnemonic: browniw
+      fork: ftm-main-fork
+      default_balance: 100000 ether
+   
